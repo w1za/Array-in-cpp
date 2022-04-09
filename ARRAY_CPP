@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int physicsmarks[4];
+    physicsmarks[0] = 55;
+    physicsmarks[1] = 65;
+    physicsmarks[2] = 45;
+    physicsmarks[3] = 75;
+
+   int mathmarks[4];
+   mathmarks[0] = 65;
+   mathmarks[1] = 75;
+   mathmarks[2] = 95;
+   mathmarks[3] = 35;
+
+   int chemistrymarks[4];
+   chemistrymarks[0] = 95;
+   chemistrymarks[1] = 85;
+   chemistrymarks[2] = 65;
+   chemistrymarks[3] = 75;
+
+   cout<<"rahul's first semester marks in main subject(physics,chemistry,mathematics)-"<<endl;
+
+   cout<<"these are physics marks-"<<endl;
+   cout<<physicsmarks[0]<<endl;
+   cout<<physicsmarks[1]<<endl;
+   cout<<physicsmarks[2]<<endl;
+   cout<<physicsmarks[3]<<endl;
+  
+   cout <<"these are math marks-"<<endl;
+   cout<<mathmarks[0]<<endl;
+   cout<<mathmarks[1]<<endl;
+   cout<<mathmarks[2]<<endl;
+   cout<<mathmarks[3]<<endl;
+
+   cout<<"these are chemistry marks-"<<endl;
+   cout<<chemistrymarks[0]<<endl;
+   cout<<chemistrymarks[1]<<endl;
+   cout<<chemistrymarks[2]<<endl;
+   cout<<chemistrymarks[3]<<endl;
+
+   
+   return 0;
+}
